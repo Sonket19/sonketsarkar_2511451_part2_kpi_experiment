@@ -1,0 +1,25 @@
+{
+    "Conversion_Rate": {
+        "Control_Rate": 0.0317,
+        "Treatment_Rate": 0.0699,
+        "Absolute_Lift": 0.0382,
+        "Relative_Lift_%": 120.28,
+        "Z_Statistic": 3.2519,
+        "P_Value": 0.000573,
+        "Significant_at_0.05": true
+    },
+    "Revenue_30d": {
+        "Control_Mean": 51.7493,
+        "Treatment_Mean": 53.8751,
+        "T_Statistic": 0.1051,
+        "P_Value": 0.916307,
+        "Significant_at_0.05": false
+    },
+    "Engagement_Score": {
+        "Control_Mean": 57.0262,
+        "Treatment_Mean": 62.932,
+        "T_Statistic": 7.9454,
+        "P_Value": 0.0,
+        "Significant_at_0.05": true
+    }
+}

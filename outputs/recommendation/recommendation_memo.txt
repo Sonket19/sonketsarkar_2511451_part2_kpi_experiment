@@ -1,0 +1,38 @@
+
+============================================================
+BUSINESS RECOMMENDATION MEMO
+============================================================
+Date    : 2026-06-29
+Subject : A/B Experiment – New Onboarding Campaign Decision
+Analyst : sonketsarkar (2511451)
+
+EXPERIMENT DESIGN
+  Control   : 693 users | Existing onboarding experience
+  Treatment : 715 users | New campaign experience
+
+PRIMARY METRIC – CONVERSION TO PAID
+  Control Rate   : 3.17%
+  Treatment Rate : 6.99%
+  Relative Lift  : +120.28%
+  P-value (z)    : 0.0006
+  Significant    : Yes ✅ (α = 0.05)
+
+SECONDARY METRICS
+  Revenue 30d  – Control: $51.75 | Treatment: $53.88 | p=0.9163
+  Engagement   – Control: 57.03 | Treatment: 62.93 | p=0.0000
+
+GUARDRAIL METRICS
+  Refund Rate        – Control: 0.00% | Treatment: 0.42% | Pass: False
+  Support Tickets    – Control: 0.22 | Treatment: 0.37 | Pass: False
+
+DECISION: SEGMENT LAUNCH – Significant lift but guardrail concern. Launch to low-risk segments only.
+
+RATIONALE
+  The new campaign delivers a statistically significant improvement in conversion rate
+  Guardrail concern detected — proceed with caution.
+
+NEXT STEPS
+  1. Full rollout with weekly monitoring for 90 days.
+  2. Segment analysis by device_type and traffic_source to optimise targeting.
+  3. Monitor days_to_convert trend post-launch.
+============================================================

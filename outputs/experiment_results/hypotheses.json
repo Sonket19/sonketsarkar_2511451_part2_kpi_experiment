@@ -1,0 +1,14 @@
+{
+    "Primary": {
+        "H0": "Conversion rate to paid is the same in Control and Treatment groups.",
+        "H1": "Treatment group has a higher conversion rate to paid than Control.",
+        "test": "Two-proportion z-test (one-tailed)",
+        "alpha": 0.05
+    },
+    "Secondary_Revenue": {
+        "H0": "Mean revenue_30d is equal across groups.",
+        "H1": "Treatment group generates higher mean revenue_30d.",
+        "test": "Welch's t-test (two-tailed)",
+        "alpha": 0.05
+    }
+}

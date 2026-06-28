@@ -1,0 +1,30 @@
+{
+    "North_Star": "Conversion Rate to Paid",
+    "L1_KPIs": {
+        "Activation_Rate": {
+            "formula": "completed_onboarding / total users",
+            "L2": [
+                "visited_landing_page rate",
+                "started_trial rate"
+            ]
+        },
+        "Revenue_Per_User": {
+            "formula": "sum(revenue_30d) / total users",
+            "L2": [
+                "days_to_convert",
+                "plan_type distribution"
+            ]
+        },
+        "Engagement_Quality": {
+            "formula": "mean(engagement_score)",
+            "L2": [
+                "device_type breakdown",
+                "traffic_source breakdown"
+            ]
+        }
+    },
+    "Guardrail_KPIs": {
+        "Refund_Rate": "refund_requested / converted_to_paid",
+        "Support_Ticket_Rate": "mean(support_tickets_30d)"
+    }
+}

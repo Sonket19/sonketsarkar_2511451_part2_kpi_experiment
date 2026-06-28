@@ -1,0 +1,15 @@
+Metric,Group,N,Mean,Sum,Std
+converted_to_paid,Control,693,0.0317,22.0,0.1754
+converted_to_paid,Treatment,715,0.0699,50.0,0.2552
+revenue_30d,Control,693,51.7493,35862.28,472.1901
+revenue_30d,Treatment,715,53.8751,38520.71,249.8086
+engagement_score,Control,693,57.0262,39177.0,13.8206
+engagement_score,Treatment,715,62.932,44492.9,13.9299
+completed_onboarding,Control,693,0.1558,108.0,0.363
+completed_onboarding,Treatment,715,0.2126,152.0,0.4094
+started_trial,Control,693,0.2511,174.0,0.4339
+started_trial,Treatment,715,0.2909,208.0,0.4545
+refund_requested,Control,693,0.0,0.0,0.0
+refund_requested,Treatment,715,0.0042,3.0,0.0647
+support_tickets_30d,Control,693,0.2193,152.0,0.597
+support_tickets_30d,Treatment,715,0.372,266.0,0.7513

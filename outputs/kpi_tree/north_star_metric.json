@@ -1,0 +1,15 @@
+{
+    "metric": "Conversion Rate to Paid (converted_to_paid)",
+    "definition": "Proportion of signed-up users who became paid customers within 30 days",
+    "formula": "converted_to_paid users / total users in group",
+    "why": "Directly measures whether the new onboarding campaign achieves its primary business goal",
+    "secondary_metrics": [
+        "revenue_30d",
+        "engagement_score",
+        "completed_onboarding"
+    ],
+    "guardrail_metrics": [
+        "refund_requested",
+        "support_tickets_30d"
+    ]
+}
